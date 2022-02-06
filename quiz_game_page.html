@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="quiz_game_page.js"></script>
+</head>
+
+
+<body class="body-2">
+<a href="https://bit.ly/3sANCM0" target="_blank" id="yt">
+    <img src="yt.jpg" style="width: 70px;"></a>        
+
+<h4 id="p1"></h4> <span id="p1_score"></span>
+<br>
+<h4 id="p2"></h4> <span id="p2_score"></span>
+
+<div class="container">
+    <center>
+        <h2 style="color: cornflowerblue"><u>The Math Quiz Game!</u></h2>
+    </center>
+</div>
+
+<br>
+<br>
+
+<div id="output">
+    <p>41 X 41</p>
+    <br>
+    <label>Answer: <input type="text" id="input_box"></label>
+    <br>
+    <br>
+    <button style="width: 30%;" class="btn btn-success" onclick="check()">Check</button>
+</div>
+<br>
+<br>
+
+<div id="send">
+    <p>Number 1</p>
+    <br>
+    <input type="number" id="no1"  placeholder="Enter no.1">
+    <br>
+    <br>
+    <p style="text-align: center;">Number 2</p>
+    <br>
+    <input type="number" id="no2" placeholder="Enter no.2">
+</div>
+
+<br>
+<button class="btn btn-success" style="color: white;" onclick="send()">Send</button>
+
+
+</body>
+</html>

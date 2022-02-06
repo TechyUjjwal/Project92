@@ -1,0 +1,42 @@
+body{
+    background-image: url("bg.jpg");
+    text-align: center;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main{
+    padding-top: 150px;
+}
+
+#yt{
+    padding-right: 1300px;
+}
+
+#para{
+    font-size: 15px;
+    color: white;
+}
+
+.body-2{
+    background-image: url("bg2.jpg");
+}
+
+#output{
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid #aa4465;
+    padding: 10px;
+    float: none;
+    text-align: left;    
+}
+
+#send{
+    background-color: black;
+    color: limegreen;
+    border-radius: 10px;
+    float: none;
+    text-align: center;
+}
